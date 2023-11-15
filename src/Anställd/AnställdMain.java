@@ -1,4 +1,4 @@
-package exersice2;
+package Anställd;
 
 
 public class AnställdMain {
