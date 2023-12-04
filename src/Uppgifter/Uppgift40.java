@@ -9,18 +9,16 @@ public class Uppgift40 {
         //Algoritmen ska skriva ut alla värden när x är ett heltal mellan -10 och 10. Dvs x antar
         //värdet -10 och ökar med till ett värdet blir 10.
 
-        // Skapa en funktion som beräknar f(x) = 3x
 
-
-
-
-        // Skriv ut alla värden för f(x) när x är ett heltal mellan -10 och 10
         for (int x = -10; x <= 10;x++) {
-            int f = 3 * x * x * x -5 * x * x + 2 * x -20;
+            int fx = 3 * x;
+            int f = 3-5*x;
+            int c = 2 + 2*x - 20;
 
+            System.out.println("x="+x+"; "+"f(x)="+fx+"; "+"f="+f+"; "+"c="+c);
 
-            System.out.println("f=" + f);
         }
+
     }
 }
 
