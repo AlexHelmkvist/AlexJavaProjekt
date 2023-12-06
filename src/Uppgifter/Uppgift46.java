@@ -7,16 +7,20 @@ public class Uppgift46 {
         //fördubblas alltså varje dag. Skapa ett program som beräknar hur många dagar mannen måste
         //arbeta för att tjäna en miljon kronor.
 
-       int totallön = 0;
-       int dagslön = 1;
-       int dagar = 0;
-       while (totallön<100000000){
+        int totallön = 0;
+        int dagslön = 1;
+        int dagar = 0;
 
-           totallön = totallön + dagslön;
-           dagslön = dagslön * 2;
-           dagar = dagar +1;
 
-           System.out.println("Dag " + dagar + ";" + " dagslön är: " + dagslön);
+
+        while (totallön < 100000000) {
+
+            totallön = totallön + dagslön;
+            dagslön = dagslön * 2;
+            dagar = dagar + 1;
+            int totaldagar = dagar;
+
+            System.out.println("Antal dagar " + totaldagar);
 
 
         }
