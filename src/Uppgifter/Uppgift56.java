@@ -18,6 +18,6 @@ public class Uppgift56 {
             sum += n;
             tal++;
         }
-        System.out.println("Antal tal är:"+ tal + "\n" + "Summa är:"+sum + "\n" + "Medelvärde är:" + sum/99);
+        System.out.println("Antal tal är:"+ tal + "\n" + "Summa är:"+sum + "\n" + "Medelvärde är:" + sum/9999);
     }
 }
