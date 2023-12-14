@@ -11,15 +11,16 @@ public class Uppgift58 {
         System.out.println("Ange 10 heltal mellan 1 och 100.");
         int max = Integer.MIN_VALUE;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i=0;i<10;i++){
             int num = sc.nextInt();
 
-            if (num > max) {
+            if (num>max){
                 max = num;
 
             }
 
         }
+
         System.out.println("Max tal:" + max);
     }
 }
