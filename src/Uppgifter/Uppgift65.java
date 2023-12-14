@@ -8,11 +8,11 @@ public class Uppgift65 {
         //största talet och det näst största talet.
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ange 10 positiva tal.");
+        System.out.println("Ange 100 positiva tal.");
 
         int big = Integer.MIN_VALUE;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             int num = sc.nextInt();
 
             if (num > big) {
