@@ -12,7 +12,6 @@ public class UppgiftArray70 {
                 System.out.println("Jämna tal är : " + j);
             }
 
-
         }
 
     }
