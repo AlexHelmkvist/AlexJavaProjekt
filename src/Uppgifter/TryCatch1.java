@@ -15,23 +15,15 @@ public class TryCatch1 {
 
             int num = Integer.parseInt(sc.nextLine());
 
-            if (num >= 0 && num <= names.length) {
-                System.out.println("Namnet på plats " + num + " är " + names[num]);
-
-            } else {
-                System.out.println("Ange ett korrekt tal mellan 0-2 och inte mindre eller större.");//Negativ värde
-
-            }
+            System.out.println("Namnet på plats " + num + " är " + names[num]);
 
         } catch (NumberFormatException e) {
-            System.out.println("Ange ett korrekt tal mellan 0-2 och skriv inte decimal tal eller text.");//Decimal tal, text och största värde
+            System.out.println("Ange ett korrekt tal mellan 0-2 och skriv inte decimal tal eller text.");//Decimal tal, text och negativ/största värde
 
 
         }catch (Exception e){
             System.out.println("Ange ett korrekt tal mellan 0-2.");//Vid oväntad fel
         }
-
-
 
     }
 }
