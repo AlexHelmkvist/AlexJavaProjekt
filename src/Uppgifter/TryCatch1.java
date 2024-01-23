@@ -18,11 +18,11 @@ public class TryCatch1 {
             System.out.println("Namnet på plats " + num + " är " + names[num]);
 
         } catch (NumberFormatException e) {
-            System.out.println("Ange ett korrekt tal mellan 0-2 och skriv inte decimal tal eller text.");//Decimal tal, text och negativ/största värde
+            System.out.println("Ange ett korrekt tal mellan 0-2 och skriv inte decimal tal eller text." + e.getMessage());//Decimal tal, text och negativ/största värde
 
 
         }catch (Exception e){
-            System.out.println("Ange ett korrekt tal mellan 0-2.");//Vid oväntad fel
+            System.out.println("Ange ett korrekt tal mellan 0-2." + e.getMessage());//Vid oväntad fel
         }
 
     }
