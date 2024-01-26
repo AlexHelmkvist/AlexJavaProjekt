@@ -12,16 +12,17 @@ public class UppgiftArray78 {
         int[] arr = new int[2];           //Skapar array med två platser.
 
         System.out.println("Ange täljare: ");//Ber användare att ange täljare.
-        arr[0] = sc.nextInt();              //Läser in information.
+        arr[0] = Integer.parseInt(sc.nextLine());            //Läser in information.
 
         System.out.println("Ange nämnare:");//Ber användare att ange nämnare.
-        arr[1] = sc.nextInt();          //Läser in information.
+        arr[1] =  Integer.parseInt(sc.nextLine());         //Läser in information.
 
         if (arr[1] == 0) {
 
             System.out.println("Det är otillåtet att ha 0 i nämnaren ");
         } else {
-            System.out.println("Bråket är: " + arr[0] + "/" + arr[1]);
+            int svar = arr[0]/arr[1];
+            System.out.println("Bråket är: " + arr[0] + "/" + arr[1] + " = " + svar);
 
         }
 
