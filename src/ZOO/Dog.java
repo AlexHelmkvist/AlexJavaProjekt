@@ -8,6 +8,6 @@ public class Dog extends Animal {
         setAge(age);
     }
     void woof(){
-        System.out.println(getNamn() + " spring " + getJump() + " gång " + "och say " + getSay() + "." + "Max är " + getAge() + " år gammal.");
+        System.out.println(getNamn() + " hoppar " + getJump() + " gång " + "och say " + getSay() + "." + "Max är " + getAge() + " år gammal.");
     }
 }

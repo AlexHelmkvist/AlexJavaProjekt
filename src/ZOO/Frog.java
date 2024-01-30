@@ -11,7 +11,7 @@ public class Frog extends Animal{
     }
 
     void kva(){
-        System.out.println(getNamn() + " spring " + getJump() + " gången " + "och say " + getSay() + "." + " Kwa är " + getAge() + " år gammal.");
+        System.out.println(getNamn() + " hoppar " + getJump() + " gången " + "och say " + getSay() + "." + " Kwa är " + getAge() + " år gammal.");
     }
 
 }
