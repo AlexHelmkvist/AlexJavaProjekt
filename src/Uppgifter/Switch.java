@@ -7,15 +7,15 @@ public class Switch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ange första tal:");
-        int tal1 = sc.nextInt();
+        int tal1 = Integer.parseInt(sc.nextLine());
         System.out.println("Ange andra tal:");
-        int tal2 = sc.nextInt();
+        int tal2 = Integer.parseInt(sc.nextLine());
 
         System.out.println("Vilket operation vill du göra,välj av följande alternativ: (1) addition,(2) subtraktion,(3) multiplikation,(4) division ");
 
 
 
-        switch (sc.nextInt()){
+        switch (Integer.parseInt(sc.nextLine())){
             case 1:
                 int addition = tal1+tal2;
                 System.out.println("Resultat av operation är: " + addition);
